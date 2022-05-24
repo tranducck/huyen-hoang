@@ -1,0 +1,22 @@
+.btn {
+  padding: 12px 30px;
+  background-color: $orange;
+  color: $white;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  text-transform: uppercase;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+
+  &.btn--submit {
+    background-color: $primary;
+    color: $orange;
+    text-transform: unset;
+    font-size: 18px;
+    padding: 10px 40px;
+    border-radius: 99px;
+    align-items: center;
+  }
+}
