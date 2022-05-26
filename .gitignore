@@ -25,3 +25,5 @@ yarn-error.log*
 .evn.development
 
 /src/service_worker/catalog.json
+# Local Netlify folder
+.netlify

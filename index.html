@@ -12,6 +12,28 @@
 		<title>BDS</title>
 	</head>
 	<body>
+		<a class="phone-widget" href="tel:0961049995">
+			<div class="phone-icon animate__animated animate__tada animate__infinite">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="icon icon-tabler icon-tabler-phone"
+					width="28"
+					height="28"
+					viewBox="0 0 24 24"
+					stroke-width="1"
+					stroke="transform"
+					fill="white"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				>
+					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+					<path
+						d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"
+					/>
+				</svg>
+			</div>
+			<div class="phone-text">096 104 9995</div>
+		</a>
 		<header class="header">
 			<div class="container header-container">
 				<a href="#" class="logo">
@@ -21,6 +43,25 @@
 					<a href="#" class="header-link active">Trang chủ</a>
 					<a href="#" class="header-link">Tôi là ai</a>
 					<a href="#" class="header-link">Dự án nổi bật</a>
+				</nav>
+				<nav class="navigation">
+					<input type="checkbox" id="nav_cb" name="nav_cb" />
+					<label for="nav_cb" class="navigation-label">
+						<span></span>
+						<span></span>
+						<span></span>
+					</label>
+					<ul class="navigation-list">
+						<li>
+							<a href="#" class="navigation-link">Trang chủ</a>
+						</li>
+						<li>
+							<a href="#" class="navigation-link">Tôi là ai</a>
+						</li>
+						<li>
+							<a href="#" class="navigation-link">Dự án nổi bật</a>
+						</li>
+					</ul>
 				</nav>
 			</div>
 		</header>
@@ -61,7 +102,7 @@
 		<section class="section about-us">
 			<div class="container about-us-wrapper">
 				<div class="about-us-content">
-					<h1 class="section-title">Tôi là ai</h1>
+					<h1 class="section-title xs-hidden">Tôi là ai</h1>
 					<div class="about-us-paragraph">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta ut lacus quis feugiat. Nullam vel
 						volutpat purus. Donec urna risus, egestas a posuere id, ultricies eget dolor. Duis auctor nulla turpis, et
@@ -77,14 +118,141 @@
 				<div class="about-us-image-wrapper">
 					<img class="about-us-img" alt="Huyen Hoang" src="img/about-us.jpg" />
 				</div>
+				<h1 class="section-title xs-show">Tôi là ai</h1>
+			</div>
+		</section>
+		<section class="section section--orange">
+			<div class="container counts-wrapper">
+				<div class="count-item">
+					<h3 class="count-item-title">100<span>+</span></h3>
+					<p class="text-uppercase">Dự án đã tham gia</p>
+				</div>
+				<div class="count-item">
+					<h3 class="count-item-title">300<span>+</span></h3>
+					<p class="text-uppercase">Căn hộ đã bán</p>
+				</div>
+				<div class="count-item">
+					<h3 class="count-item-title">100<span>+</span></h3>
+					<p class="text-uppercase">Nhân viên xuất sắc</p>
+				</div>
+				<div class="count-item">
+					<h3 class="count-item-title">100<span>%</span></h3>
+					<p class="text-uppercase">Khách hàng hài lòng</p>
+				</div>
+			</div>
+		</section>
+		<section class="section features">
+			<div class="container features-container">
+				<h1 class="section-title">Vì sao chọn tư vấn từ Huyên Hoàng</h1>
+				<div class="features-list">
+					<div class="feature-item">
+						<div class="feature-item-icon icon--1">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="icon icon-tabler icon-tabler-heart"
+								width="44"
+								height="44"
+								viewBox="0 0 24 24"
+								stroke-width="1"
+								stroke="white"
+								fill="none"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+								<path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+							</svg>
+						</div>
+						<div class="feature-item-content">
+							<h4>CHỮ TÂM TRONG NGHỀ</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend ornare sollicitudin.</p>
+						</div>
+					</div>
+					<div class="feature-item">
+						<div class="feature-item-icon icon--2">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="icon icon-tabler icon-tabler-briefcase"
+								width="44"
+								height="44"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="white"
+								fill="none"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+								<rect x="3" y="7" width="18" height="13" rx="2" />
+								<path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
+								<line x1="12" y1="12" x2="12" y2="12.01" />
+								<path d="M3 13a20 20 0 0 0 18 0" />
+							</svg>
+						</div>
+						<div class="feature-item-content">
+							<h4>KINH NGHIỆM CHUYÊN SÂU</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend ornare sollicitudin.</p>
+						</div>
+					</div>
+					<div class="feature-item">
+						<div class="feature-item-icon icon--3">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="icon icon-tabler icon-tabler-star"
+								width="44"
+								height="44"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="white"
+								fill="none"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+								<path
+									d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"
+								/>
+							</svg>
+						</div>
+						<div class="feature-item-content">
+							<h4>Quy trình chuyên nghiệp</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend ornare sollicitudin.</p>
+						</div>
+					</div>
+					<div class="feature-item">
+						<div class="feature-item-icon icon--4">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="icon icon-tabler icon-tabler-shield-lock"
+								width="44"
+								height="44"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="white"
+								fill="none"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+								<path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
+								<circle cx="12" cy="11" r="1" />
+								<line x1="12" y1="12" x2="12" y2="14.5" />
+							</svg>
+						</div>
+						<div class="feature-item-content">
+							<h4>Bảo mật thông tin khách hàng</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend ornare sollicitudin.</p>
+						</div>
+					</div>
+					<div class="text-center mt-5 features-btn-wrapper">
+						<a href="#" class="btn">Nhận tư vấn ngay</a>
+					</div>
+				</div>
 			</div>
 		</section>
 		<section class="section section--secondary">
 			<div class="container projects-wrapper">
-				<div class="projects-header">
-					<h1 class="section-title title--white">Các dự án nổi bật</h1>
-					<a href="#" class="btn mt-6">Nhận tư vấn ngay</a>
-				</div>
+				<h1 class="section-title title--white">Các dự án nổi bật</h1>
 				<div class="projects">
 					<div class="project-item">
 						<div class="project-img-wrapper">
@@ -113,26 +281,18 @@
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta ut lacus quis feugiat.
 						</p>
 					</div>
+					<div class="project-item">
+						<div class="project-img-wrapper">
+							<img src="img/project-4.jpg" class="project-img" alt="Project 4" />
+						</div>
+						<h4 class="project-title">Novaland Hà Đông</h4>
+						<p class="project-description">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta ut lacus quis feugiat.
+						</p>
+					</div>
 				</div>
-			</div>
-		</section>
-		<section class="section section--orange">
-			<div class="container counts-wrapper">
-				<div class="count-item">
-					<h3 class="count-item-title">100<span>+</span></h3>
-					<p class="text-uppercase">Dự án đã tham gia</p>
-				</div>
-				<div class="count-item">
-					<h3 class="count-item-title">300<span>+</span></h3>
-					<p class="text-uppercase">Căn hộ đã bán</p>
-				</div>
-				<div class="count-item">
-					<h3 class="count-item-title">100<span>+</span></h3>
-					<p class="text-uppercase">Nhân viên xuất sắc</p>
-				</div>
-				<div class="count-item">
-					<h3 class="count-item-title">100<span>%</span></h3>
-					<p class="text-uppercase">Khách hàng hài lòng</p>
+				<div class="mt-6 text-center">
+					<a href="#" class="btn">Nhận tư vấn ngay</a>
 				</div>
 			</div>
 		</section>
@@ -191,43 +351,143 @@
 				</div>
 			</div>
 		</section>
+		<section class="section">
+			<div class="container">
+				<h1 class="section-title">Video của tôi</h1>
+				<div class="videos">
+					<div class="video-item">
+						<div class="video-thumb-wrapper">
+							<iframe
+								width="100%"
+								height="100%"
+								src="https://www.youtube.com/embed/JUu2ilIM9q0"
+								title="YouTube video player"
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen
+							></iframe>
+						</div>
+						<p>Novaworld Phan Thiết</p>
+					</div>
+					<div class="video-item">
+						<div class="video-thumb-wrapper">
+							<iframe
+								width="560"
+								height="315"
+								src="https://www.youtube.com/embed/t2t0Awl_574"
+								title="YouTube video player"
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen
+							></iframe>
+						</div>
+						<p>Flamingo Cát Bà</p>
+					</div>
+					<div class="video-item">
+						<div class="video-thumb-wrapper">
+							<iframe
+								width="560"
+								height="315"
+								src="https://www.youtube.com/embed/hpDQZZsX1RA"
+								title="YouTube video player"
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen
+							></iframe>
+						</div>
+						<p>L'Aurora Phú Yên</p>
+					</div>
+				</div>
+				<div class="mt-5 text-center">
+					<a href="https://www.youtube.com/user/chickbongxu" target="_blank" class="btn"> Xem thêm video </a>
+				</div>
+			</div>
+		</section>
 		<footer class="footer">
 			<div class="container">
 				<div class="footer-links-section">
 					<div class="footer-links">
-						<h3 class="footer-title">Về chúng tôi</h3>
-						<p class="text-grey">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem.
-							Amet aliquid nesciunt veritatis aliquam.
+						<h3 class="footer-title">Liên hệ</h3>
+						<p class="mb-3 d-flex align-items-center">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="icon icon-tabler icon-tabler-mail footer-contact-icon"
+								width="32"
+								height="32"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="#2c3e50"
+								fill="none"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+								<rect x="3" y="5" width="18" height="14" rx="2" />
+								<polyline points="3 7 12 13 21 7" />
+							</svg>
+							test@example.com
+						</p>
+						<p class="mb-3 d-flex align-items-center">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="icon icon-tabler icon-tabler-phone footer-contact-icon"
+								width="44"
+								height="44"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="#2c3e50"
+								fill="none"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+								<path
+									d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"
+								/>
+							</svg>
+							096 104 9995
+						</p>
+						<p class="d-flex align-items-center">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="icon icon-tabler icon-tabler-map-pin footer-contact-icon"
+								width="44"
+								height="44"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="#2c3e50"
+								fill="none"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+								<circle cx="12" cy="11" r="3" />
+								<path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+							</svg>
+							13A Dịch Vọng Hậu, Dịch Vọng, Cầu Giấy, Hà Nội
 						</p>
 					</div>
 					<div class="footer-links">
-						<h3 class="footer-title">Liên hệ</h3>
-							<p class="mb-2">Email: test@example.com</p>
-							<p class="mb-2">SĐT: 091234332</p>
-							<p>Địa chỉ: Tây Mỗ, Nam Từ Liêm, Hà Nội</p>
+						<h3 class="footer-title">Đăng ký nhận tư vấn</h3>
+						<form>
+							<div class="field">
+								<input class="input" placeholder="Họ và tên" />
+							</div>
+							<div class="field">
+								<input class="input" placeholder="Email" />
+							</div>
+							<div class="field">
+								<input class="input" placeholder="Số điện thoại" />
+							</div>
+							<div class="field">
+								<button type="submit" class="btn">Đăng ký ngay</button>
+							</div>
+						</form>
 					</div>
 					<div class="footer-links">
 						<h3 class="footer-title">Theo dõi chúng tôi</h3>
 						<div class="d-flex">
-							<a href="#" class="footer-link footer-link--icon">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									class="icon icon-tabler icon-tabler-brand-facebook"
-									width="44"
-									height="44"
-									viewBox="0 0 24 24"
-									stroke-width="1.5"
-									stroke="#2c3e50"
-									fill="none"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								>
-									<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-									<path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-								</svg>
-							</a>
-							<a href="#" class="footer-link footer-link--icon">
+							<a target="_blank" href="https://www.youtube.com/chickbongxu" class="footer-link footer-link--icon">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									class="icon icon-tabler icon-tabler-brand-youtube"
@@ -245,7 +505,24 @@
 									<path d="M10 9l5 3l-5 3z" />
 								</svg>
 							</a>
-							<a href="#" class="footer-link footer-link--icon">
+							<a target="_blank" href="https://www.facebook.com/mc.huyenhoang" class="footer-link footer-link--icon">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-brand-facebook"
+									width="44"
+									height="44"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="#2c3e50"
+									fill="none"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+									<path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+								</svg>
+							</a>
+							<a target="_blank" href="https://www.tiktok.com/@huyenhoangbds" class="footer-link footer-link--icon">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									class="icon icon-tabler icon-tabler-brand-tiktok"
