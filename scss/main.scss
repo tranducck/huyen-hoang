@@ -101,6 +101,10 @@ li {
 		background-color: $orange;
 	}
 
+  &.section--wide {
+    padding: 100px 0;
+  }
+
 	&.hero {
 		height: 100vh;
 		background-image: url('../img/hero.jpg');
@@ -221,20 +225,15 @@ li {
 }
 
 .projects {
-	flex: 1;
-	display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
 }
 
 .project-item {
 	flex: 1;
 	flex-shrink: 0;
 	overflow: hidden;
-	margin-right: 20px;
-	color: $white;
-
-	&:last-child {
-		margin-right: 0;
-	}
 }
 
 .project-img-wrapper {
@@ -626,6 +625,21 @@ li {
   color: #fff;
   display: block;
   font-size: 18px;
+}
+
+.breadcrumbs {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-spliiter {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: $gray;
+}
+
+span.breadcrumb {
 }
 
 @import 'responsive';
