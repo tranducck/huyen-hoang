@@ -3,13 +3,34 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="description" content="Lorem ipsum dolores sit amit" />
 
 		<link rel="stylesheet" href="css/styles.css" />
-		<!--<link rel="shortcut icon" type="image/png" href="img/favicon.png" />-->
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+		<link rel="canonical" href="https://estate-example.netlify.app" />
+		<meta property="og:locale" content="vi_VN" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Hoàng Huyên BĐS Luxury" />
+		<meta property="og:description" content="Lorem ipsum dolores sit amit" />
+		<meta property="og:url" content="https://estate-example.netlify.app" />
+		<meta property="og:site_name" content="estate-example.netlify.app" />
+		<meta property="og:image" content="img/hero.jpg" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:description" content="Lorem ipsum dolores sit amit" />
+		<meta name="twitter:title" content="Hoàng Huyên BĐS Luxury" />
+		<meta name="twitter:image" content="img/hero.jpg" />
 
+		<script type="application/ld+json">
+			{
+				"@context": "http://schema.org",
+				"@type": "WebSite",
+				"name": "Huyên Hoàng BĐS Luxury",
+				"url": "https://estate-example.netlify.app"
+			}
+		</script>
 		<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
 
-		<title>BDS</title>
+		<title>Hoàng Huyên BĐS Luxury</title>
 	</head>
 	<body>
 		<a class="phone-widget" href="tel:0961049995">
@@ -36,8 +57,11 @@
 		</a>
 		<header class="header">
 			<div class="container header-container">
-				<a href="#" class="logo">
-					<img alt="Logo" class="lazy" data-src="img/logo.png" />
+				<a href="index.html" class="logo">
+					<picture>
+						<source type="image/webp" srcset="img/logo.webp" />
+						<img alt="Logo" class="lazy" src="img/logo.png" />
+					</picture>
 				</a>
 				<nav class="header-links">
 					<a href="index.html" class="header-link active">Trang chủ</a>
@@ -115,9 +139,10 @@
 					</div>
 					<a href="#" class="btn mt-6">Nhận tư vấn ngay</a>
 				</div>
-				<div class="about-us-image-wrapper">
+				<picture class="about-us-image-wrapper">
+					<source data-srcset="img/about-us.webp" type="image/webp" />
 					<img class="about-us-img lazy" alt="Huyen Hoang" data-src="img/about-us.jpg" />
-				</div>
+				</picture>
 				<h1 class="section-title xs-show">Tôi là ai</h1>
 			</div>
 		</section>
@@ -308,7 +333,10 @@
 				<div class="projects">
 					<div class="project-item text-white">
 						<div class="project-img-wrapper">
-							<img data-src="img/project-1.jpg" class="project-img lazy" alt="Project 1" />
+							<picture>
+								<source type="image/webp" data-srcset="img/project-5.webp" />
+								<img data-src="img/project-5.jpg" class="project-img lazy" alt="Project 1" />
+							</picture>
 						</div>
 						<h4 class="project-title">Novaland Hà Đông</h4>
 						<p class="project-description">
@@ -317,7 +345,10 @@
 					</div>
 					<div class="project-item text-white">
 						<div class="project-img-wrapper">
-							<img data-src="img/project-2.jpg" class="project-img lazy" alt="Project 2" />
+							<picture>
+								<source type="image/webp" data-srcset="img/project-2.webp" />
+								<img data-src="img/project-2.jpg" class="project-img lazy" alt="Project 2" />
+							</picture>
 						</div>
 						<h4 class="project-title">Venezia Bình Châu</h4>
 						<p class="project-description">
@@ -326,7 +357,10 @@
 					</div>
 					<div class="project-item text-white">
 						<div class="project-img-wrapper">
-							<img data-src="img/project-3.jpg" class="project-img lazy" alt="Project 3" />
+							<picture>
+								<source type="image/webp" data-srcset="img/project-3.webp" />
+								<img data-src="img/project-3.jpg" class="project-img lazy" alt="Project 3" />
+							</picture>
 						</div>
 						<h4 class="project-title">Merryland Quy Nhơn</h4>
 						<p class="project-description">
@@ -335,7 +369,10 @@
 					</div>
 					<div class="project-item text-white">
 						<div class="project-img-wrapper">
-							<img data-src="img/project-4.jpg" class="project-img lazy" alt="Project 4" />
+							<picture>
+								<source type="image/webp" data-srcset="img/project-4.webp" />
+								<img data-src="img/project-4.jpg" class="project-img lazy" alt="Project 4" />
+							</picture>
 						</div>
 						<h4 class="project-title">Novaland Hà Đông</h4>
 						<p class="project-description">
@@ -354,7 +391,11 @@
 				<div class="testimonials">
 					<div class="testimonial-item">
 						<div class="testimonial-item-header">
-							<img class="testimonial-avatar lazy" alt="Customer 1" data-src="img/xperson_2.jpg.pagespeed.ic.JH00R7yHw6.jpeg" />
+							<img
+								class="testimonial-avatar lazy"
+								alt="Customer 1"
+								data-src="img/xperson_2.jpg.pagespeed.ic.JH00R7yHw6.jpeg"
+							/>
 							<div class="testimonial-customter">
 								<h4>Nguyễn Văn An</h4>
 								<p>Giám đốc Vinfast Hà Nội</p>
@@ -366,7 +407,11 @@
 					</div>
 					<div class="testimonial-item">
 						<div class="testimonial-item-header">
-							<img class="testimonial-avatar lazy" alt="Customer 2" data-src="img/xperson_3.jpg.pagespeed.ic.u9UFNUbAmA.jpeg" />
+							<img
+								class="testimonial-avatar lazy"
+								alt="Customer 2"
+								data-src="img/xperson_3.jpg.pagespeed.ic.u9UFNUbAmA.jpeg"
+							/>
 							<div class="testimonial-customter">
 								<h4>Nhâm Mạnh DÙng</h4>
 								<p>Cầu thủ U23 Việt Nam</p>
@@ -378,7 +423,11 @@
 					</div>
 					<div class="testimonial-item">
 						<div class="testimonial-item-header">
-							<img class="testimonial-avatar lazy" alt="Customer 3" data-src="img/xperson_2.jpg.pagespeed.ic.JH00R7yHw6.jpeg" />
+							<img
+								class="testimonial-avatar lazy"
+								alt="Customer 3"
+								data-src="img/xperson_2.jpg.pagespeed.ic.JH00R7yHw6.jpeg"
+							/>
 							<div class="testimonial-customter">
 								<h4>Trần Hoàng Minh</h4>
 								<p>CEO Whassup</p>
@@ -390,7 +439,11 @@
 					</div>
 					<div class="testimonial-item">
 						<div class="testimonial-item-header">
-							<img class="testimonial-avatar lazy" alt="Customer 3" data-src="img/xperson_2.jpg.pagespeed.ic.JH00R7yHw6.jpeg" />
+							<img
+								class="testimonial-avatar lazy"
+								alt="Customer 3"
+								data-src="img/xperson_2.jpg.pagespeed.ic.JH00R7yHw6.jpeg"
+							/>
 							<div class="testimonial-customter">
 								<h4>Trần Hoàng Minh</h4>
 								<p>CEO Whassup</p>
